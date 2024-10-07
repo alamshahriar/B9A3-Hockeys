@@ -1,0 +1,9 @@
+.junior,
+.teenager {
+    background-image: url("../images/2.png");
+    background-repeat: no-repeat;
+}
+
+.teenager {
+    background-image: url("../images/3.png");
+}
