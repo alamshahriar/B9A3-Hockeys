@@ -1,9 +1,8 @@
-.junior,
-.teenager {
-    background-image: url("../images/2.png");
-    background-repeat: no-repeat;
+.container {
+    max-width: 1170px !important;
+    margin: auto;
 }
 
-.teenager {
-    background-image: url("../images/3.png");
+.font-manrope {
+    font-family: "Manrope", system-ui;
 }
