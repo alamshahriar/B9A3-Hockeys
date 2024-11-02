@@ -84,7 +84,8 @@
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <div
+                    class="absolute left-5 right-5 -bottom-4 lg:bottom-5 flex -translate-y-1/2 transform justify-center lg:justify-start">
                     <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
                 </div>
@@ -92,7 +93,8 @@
             <!-- slide 2 -->
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="images/4.png" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <div
+                    class="absolute left-5 right-5 -bottom-4 lg:bottom-5 flex -translate-y-1/2 transform justify-center lg:justify-start">
                     <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❮</a>
                     <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❯</a>
                 </div>
@@ -171,7 +173,7 @@
         <section class="mx-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div class=" bg-no-repeat lg:bg-cover h-[244] lg:h-[338] lg:pt-20 lg:px-10 lg:py-10 rounded-2xl px-6 py-6"
-                    style="background-image: url('/images/2.png');">
+                    style="background-image: url('./images/2.png');">
                     <h2 class="text-2xl font-extrabold text-white lg:mb-4 mb-3">Junior Program</h2>
                     <p class="text-base font-medium text-white mb-6 max-w-md">Dolor sit amet consectetur. Ut
                         urna diam
@@ -185,7 +187,7 @@
                         Now!</button>
                 </div>
                 <div class=" bg-no-repeat lg:bg-cover h-[244] lg:h-[338] lg:pt-20 lg:px-10 lg:py-10 rounded-2xl px-6 py-6"
-                    style="background-image: url('/images/3.png');">
+                    style="background-image: url('./images/3.png');">
                     <h2 class="text-2xl font-extrabold text-white mb-4">Teenager Program</h2>
                     <p class="text-base font-medium text-white mb-6 max-w-md">Dolor sit amet consectetur. Ut urna diam
                         quis
@@ -200,7 +202,7 @@
             </div>
             <div class="mt-6">
                 <div class=" bg-no-repeat lg:bg-cover lg:pt-52 lg:pl-10 lg:pb-10 lg:h-[450] py-6 px-6 h-[244] rounded-2xl"
-                    style="background-image: url('/images/4.png');">
+                    style="background-image: url('./images/4.png');">
                     <h2 class="text-2xl font-extrabold text-white lg:mb-4 mb-3">Professional Program</h2>
                     <p class="text-base font-medium text-white max-w-lg lg:mb-6 mb-5">Dolor sit amet consectetur. Ut
                         urna
@@ -642,18 +644,22 @@
             <div class="flex flex-row gap-10 lg:gap-40 justify-center pb-10">
                 <div>
                     <h4 class="text-xl text-white font-bold pb-7">Company</h4>
-                    <h5 class="text-white font-medium text-base">About us <br>
-                        Leadership <br>
-                        Careers <br>
-                        News & Article <br>
-                        Legal Notice</h5>
+                    <div class="space-y-5 flex flex-col">
+                        <a href="/" class="text-white font-medium text-base">About us </a>
+                        <a class="text-white font-medium text-base">Leadership </a>
+                        <a class="text-white font-medium text-base">Careers </a>
+                        <a class="text-white font-medium text-base">News & Article </a>
+                        <a class="text-white font-medium text-base">Legal Notice</a>
+                    </div>
                 </div>
                 <div>
                     <h4 class="text-xl text-white font-bold pb-7">Support</h4>
-                    <h5 class="text-white font-medium text-base">Help Center <br>
-                        FAQ <br>
-                        Ticket Support <br>
-                        Contact Us</h5>
+                    <div class="space-y-5 flex flex-col">
+                        <a class="text-white font-medium text-base">Help Center </a>
+                        <a href="" class="text-white font-medium text-base">FAQ</a>
+                        <a href="" class="text-white font-medium text-base">Ticket Support</a>
+                        <a href="" class="text-white font-medium text-base">Contact Us</a>
+                    </div>
                 </div>
             </div>
             <div>
